@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy - Personal rclone client</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Personal rclone client. Last updated October 30, 2026.</p>
+
+    <p>This policy covers the Google OAuth client described on the <a href="index.html">home page</a>. The client is used by its owner, GitHub user luytbq, to run the open-source <a href="https://rclone.org/">rclone</a> program against their own Google Drive. It is not offered to the public.</p>
+
+    <h2>Google user data accessed</h2>
+    <p>When an account authorizes the client, rclone can access Google Drive files and their metadata through these scopes:</p>
+    <ul>
+      <li>https://www.googleapis.com/auth/drive - view, create, edit and delete Drive files</li>
+      <li>https://www.googleapis.com/auth/docs - view and manage Google Docs documents stored in Drive</li>
+      <li>https://www.googleapis.com/auth/drive.metadata.readonly - view metadata of Drive files</li>
+    </ul>
+
+    <h2>How the data is used</h2>
+    <p>The data is used only to perform the file operations the owner starts with rclone, such as listing, copying, syncing and deleting files. It is not used for advertising, analytics or profiling.</p>
+
+    <h2>Storage</h2>
+    <p>rclone runs on the owner's own devices. Files transferred by rclone go directly between Google's servers and those devices, or another storage location the owner chooses. There is no server or database operated for this client, and it does not collect or receive data on any server.</p>
+    <p>The OAuth tokens are stored in the rclone configuration file on those devices.</p>
+
+    <h2>Sharing</h2>
+    <p>Google user data is not sold, and it is not shared with or transferred to any third party. The one exception is a storage destination that the owner explicitly selects when running rclone.</p>
+
+    <h2>Limited Use</h2>
+    <p>Use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+    <h2>Retention and removal</h2>
+    <p>Authorization can be revoked at any time on the <a href="https://myaccount.google.com/permissions">Google Account permissions page</a>. Removing the rclone remote or its configuration file deletes the stored tokens from the device.</p>
+
+    <h2>Changes</h2>
+    <p>Updates to this policy are published on this page with a new date.</p>
+
+    <h2>Contact</h2>
+    <p>Questions can be sent through the <a href="https://github.com/luytbq">owner's GitHub profile</a>.</p>
+  </main>
+</body>
+</html>
